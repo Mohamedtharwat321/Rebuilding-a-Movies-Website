@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
+     "./src/**/*.{html,js,css}",
     "./index.html",       // Include your main HTML file
-    "./src/**/*.{html,js}", // Include all HTML/JS files in the src folder
+   , // Include all HTML/JS files in the src folder
   ],
   theme: {
     extend: {
@@ -15,7 +16,7 @@ export default {
         moviesgrid: "repeat(auto-fit, minmax(180px, auto))",
       },
       backgroundImage: {
-        headerImage: "url(/img/home3.jpg)",
+        headerImage: "url(../img/home3.jpg)",
       },
       fontFamily: {
         Pfont: ["Poppins", "sans-serif"],
