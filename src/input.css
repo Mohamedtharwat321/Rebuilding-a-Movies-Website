@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  header.shadow {
+    @apply bg-p3 shadow-md;
+  }
+
+  header.shadow .logo {
+    @apply text-p2;
+  }
+
+  header.shadow .navbar a,
+  header.shadow #menu-icon {
+    @apply text-p2;
+  }
+
+  .navbar a {
+    @apply relative inline-block after:content-[''] after:absolute after:bg-p1 after:border-0 after:w-0 after:h-1  after:-bottom-1 after:transition-all after:delay-100 after:left-0 after:right-0 after:origin-center
+  }
+
+  .navbar a:hover{
+    @apply after:w-full
+  }
+  .navbar .home-active {
+    @apply md:after:w-full
+  }
+
+  .navbar.active {
+    @apply top-full
+  }
+}
+
+html::-webkit-scrollbar {
+  @apply w-2 bg-p2;
+}
+
+html::-webkit-scrollbar-thumb {
+  @apply bg-p1 rounded-[5rem];
+}
