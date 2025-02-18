@@ -21,21 +21,16 @@ The Movies App is a web-based application that allows users to explore a curated
 This project demonstrates the power of Tailwind CSS in building modern, responsive UIs with minimal custom CSS. It also highlights best practices for structuring HTML and using utility classes for styling.
 
 ## Features
-- **Responsive Design**: The landing page is fully responsive and works seamlessly on desktops, tablets, and mobile devices.
-- **Sections**:
-  - Hero section.
-  - Information about the company and its services.
-  - Solar kits showcase.
-  - Repair services section.
-  - Energy innovators and products section.
-  - Customer testimonials.
-  - Footer with subscription and legal links.
-- **Interactive Elements**: Buttons, progress bars, and sliders for enhanced user interaction.
-- **Font Awesome Icons**: Utilizes Font Awesome for icons.
+- **Custom Fonts and Icons**:
+    - Uses Google Fonts for typography and Font Awesome for icons.
+- **Tailwind CSS**:
+    - Utility-first CSS framework for rapid and responsive UI development.
+
 
 ## Technologies Used
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout, including media queries for responsiveness.
+- **Tailwind CSS**: For utility-first CSS styling and responsive design.
 - **Font Awesome**: For icons.
 - **Google Fonts**: For typography (if used).
 
@@ -44,7 +39,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Mohamedtharwat321/Solar-Landing-Page.git
+   git clone https://github.com/Mohamedtharwat321/Rebuilding-a-Movies-Website.git
 To run this project locally, follow these steps:
 
 ## Usage
