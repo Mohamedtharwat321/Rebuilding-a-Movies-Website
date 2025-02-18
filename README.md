@@ -20,6 +20,8 @@ The Movies App is a web-based application that allows users to explore a curated
 
 This project demonstrates the power of Tailwind CSS in building modern, responsive UIs with minimal custom CSS. It also highlights best practices for structuring HTML and using utility classes for styling.
 
+Live Demo :  https://mohamedtharwat321.github.io/Rebuilding-a-Movies-Website/
+
 ## Features
 - **Custom Fonts and Icons**:
     - Uses Google Fonts for typography and Font Awesome for icons.
